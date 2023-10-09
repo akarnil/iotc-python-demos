@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 '''
     Basic sample loading credentials from file and sending data to endpoint
 '''
