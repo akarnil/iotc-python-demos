@@ -93,7 +93,7 @@ class ConnectedDevice(GenericDevice):
         raise NotImplementedError()
 
     def attribute_change_cb(self,msg):
-        raise NotImplementedError()
+        self.SdkClient.GetAttributes(self.get_attribute_metadata_from_cloud)
 
     def device_change_cb(self,msg):
         raise NotImplementedError()

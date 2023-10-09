@@ -39,6 +39,7 @@ class Enums:
             ACK = MSGTYPE["ACK"]
             OTA = MSGTYPE["OTA"]
             FIRMWARE = MSGTYPE["FIRMWARE"]
+            REQUEST_ATTRIBUTES = 201
 
         class ErrorCode:
             OK = ErorCode["OK"]
