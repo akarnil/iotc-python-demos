@@ -1,0 +1,2 @@
+Requests==2.31.0
+iotconnect-sdk @ git+https://github.com/avnet-iotconnect/iotc-python-sdk.git@083e0b74390775e12295fe7703c056ba10bdef90#egg=iotconnect-sdk-1.0&subdirectory=iotconnect-sdk-1.0
